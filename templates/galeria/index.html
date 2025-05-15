@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,7 +7,7 @@
     <title>Diário de um Aventureiro Medieval</title>
     <style>
         body {
-            background-image: url(''); /* Substitua com o caminho da imagem de fundo */
+            background-image: url("{% static 'assets/imagens/background/rustic_paper.png' %}"); /* Substitua com o caminho da imagem de fundo */
             background-size: cover;
             background-repeat: no-repeat;
             font-family: 'Nome da Fonte Cursiva', cursive; /* Substitua com o nome da fonte cursiva */
